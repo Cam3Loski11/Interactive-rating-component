@@ -16,7 +16,7 @@ const submitBtn = document.querySelector('.submitBtn');
 const mainCard = document.querySelector('.main-card');
 const resultCard = document.querySelector('.result-card');
 submitBtn.addEventListener('click', () => {
-    const selectedButton = document.querySelector('.button.active');
+    const selectedButton = document.querySelector('.button.active');  // <== Esto es para que busque cual tiene la clase button y active
 
     if (selectedButton) {
         const selectedValue = selectedButton.value;
